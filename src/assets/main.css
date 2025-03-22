@@ -1,0 +1,60 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: var(--primary-color);
+}
+
+:root {
+    --primary-color: #f8f8f8;
+    --secondary-color: #ffffff;
+}
+
+.bg-sidebar {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    padding: 30px 15px;
+    background-color: var(--secondary-color);
+}
+
+.dashboard-title {
+    color: #272964;
+    font-size: 16px;
+    text-transform: uppercase;
+    font-weight: 700;
+    letter-spacing: 2px;
+    margin: 20px 0px 10px 0px;
+}
+
+.link {
+    height: 65vh;
+}
+
+.link i,
+.config button i {
+    font-size: 20px;
+}
+
+.sticky-sidebar {
+    position: sticky;
+    top: 0;
+    height: 100vh;
+    overflow-y: auto;
+    z-index: 1000;
+  }
+
+.bg-content {
+    background-color: var(--primary-color);
+    overflow-y: auto;
+    height: 100vh;
+}
+
+.router-link-exact-active,
+.router-link-active {
+    text-decoration: none;
+}
