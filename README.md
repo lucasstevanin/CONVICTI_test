@@ -4,8 +4,7 @@ Para acessar a dashboard, clique em ˜Entrar˜ na tela de login
 
 ## Rotas
 
-/dashboard
-/dashboard/settings
+/dashboard e /dashboard/settings
 
 ## Project Setup
 
